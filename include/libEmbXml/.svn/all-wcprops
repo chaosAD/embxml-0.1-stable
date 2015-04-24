@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svnroot/embxml/!svn/ver/23/include/libEmbXml
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/embxml/!svn/ver/23/include/libEmbXml/Makefile.in
+END
+writer.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svnroot/embxml/!svn/ver/14/include/libEmbXml/writer.h
+END
+document.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/embxml/!svn/ver/14/include/libEmbXml/document.h
+END
+reader.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svnroot/embxml/!svn/ver/22/include/libEmbXml/reader.h
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/embxml/!svn/ver/15/include/libEmbXml/Makefile.am
+END
+IOFile.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svnroot/embxml/!svn/ver/18/include/libEmbXml/IOFile.h
+END

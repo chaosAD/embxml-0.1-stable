@@ -1,0 +1,34 @@
+9
+
+dir
+25
+https://embxml.svn.sourceforge.net/svnroot/embxml/include
+https://embxml.svn.sourceforge.net/svnroot/embxml
+
+
+
+2008-05-27T22:44:58.884296Z
+23
+zacmarco
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+53a370a0-6a2e-0410-9efa-c29a3d46ee21
+
+libEmbMem
+dir
+
+libEmbXml
+dir
+

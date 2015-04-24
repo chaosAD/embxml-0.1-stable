@@ -1,0 +1,36 @@
+../../include/libEmbXml/document.h:167: warning: 'Node::attrObjManager' will be initialized after
+../../include/libEmbXml/document.h:156: warning:   'Attribute* Node::attributes'
+document.cpp:13: warning:   when initialized here
+../../include/libEmbXml/document.h:164: warning: 'Node::num_children' will be initialized after
+../../include/libEmbXml/document.h:161: warning:   'Node* Node::lkUpN'
+document.cpp:13: warning:   when initialized here
+../../include/libEmbXml/document.h:161: warning: 'Node::lkUpN' will be initialized after
+../../include/libEmbXml/document.h:152: warning:   'Node* Node::first_child'
+document.cpp:13: warning:   when initialized here
+../../include/libEmbXml/document.h:153: warning: 'Node::last_child' will be initialized after
+../../include/libEmbXml/document.h:150: warning:   'Node* Node::prev'
+document.cpp:13: warning:   when initialized here
+document.cpp: At global scope:
+document.cpp:404: warning: unused parameter 'size'
+document.cpp:435: warning: unused parameter 'n'
+document.cpp:437: warning: unused parameter 'n'
+document.cpp:437: warning: unused parameter 'v'
+document.cpp:441: warning: unused parameter 'n'
+document.cpp:441: warning: unused parameter 'v'
+document.cpp:443: warning: unused parameter 'idx'
+document.cpp:443: warning: unused parameter 'v'
+document.cpp:445: warning: unused parameter 'n'
+../../include/libEmbXml/document.h: In constructor 'Attribute::Attribute(ObjManager<Attribute>*&, const char*, const char*)':
+../../include/libEmbXml/document.h:104: warning: 'Attribute::effectiveObjManager' will be initialized after
+../../include/libEmbXml/document.h:102: warning:   'Attribute* Attribute::next'
+document.cpp:452: warning:   when initialized here
+../../include/libEmbXml/document.h:102: warning: 'Attribute::next' will be initialized after
+../../include/libEmbXml/document.h:101: warning:   'Attribute* Attribute::prev'
+document.cpp:452: warning:   when initialized here
+document.cpp: At global scope:
+document.cpp:468: warning: unused parameter 'size'
+document.cpp: In member function 'void Document::setTableColName(Node*, int, const char*)':
+document.cpp:677: warning: comparison between signed and unsigned integer expressions
+ g++ -DHAVE_CONFIG_H -I. -I../.. -I../../include -g -O2 -Wall -W -MT document.lo -MD -MP -MF .deps/document.Tpo -c document.cpp -o document.o >/dev/null 2>&1
+mv -f .deps/document.Tpo .deps/document.Plo
+/bin/sh ../../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I../.. -I../../include     -g -O2 -Wall -W -MT IOFile.lo -MD -MP -MF .deps/IOFile.Tpo -c -o IOFile.lo IOFile.cpp

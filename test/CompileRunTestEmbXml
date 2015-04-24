@@ -1,0 +1,17 @@
+#!/bin/bash
+
+#xml="../src/libEmbXml/.libs"
+#mem="../src/libEmbMem/.libs"
+
+# Compile and link to the static library
+#g++ -c testEmbXml.cpp -I../result/include -o testEmbXml.o
+#g++ testEmbXml.o $xml/document.o $xml/IOFile.o $xml/reader.o $xml/writer.o $mem/charBuffer.o -I../result/include -o testEmbXml.exe
+g++ testEmbXml.cpp -I../result/include -L../result/lib -lEmbXml -lEmbMem -o testEmbXml.exe
+
+# Make a folder if does not exist
+mkdir -p artifacts
+
+# Run the program
+cd artifacts
+./../testEmbXml.exe
+cd ..

@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 28
+/svnroot/embxml/!svn/ver/25/
+END
+configure
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svnroot/embxml/!svn/ver/23/configure
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svnroot/embxml/!svn/ver/23/Makefile.in
+END
+AUTHORS
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svnroot/embxml/!svn/ver/11/AUTHORS
+END
+depcomp
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svnroot/embxml/!svn/ver/23/depcomp
+END
+ChangeLog
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svnroot/embxml/!svn/ver/1/ChangeLog
+END
+warnings
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svnroot/embxml/!svn/ver/1/warnings
+END
+config.guess
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svnroot/embxml/!svn/ver/23/config.guess
+END
+config.sub
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svnroot/embxml/!svn/ver/23/config.sub
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svnroot/embxml/!svn/ver/1/README
+END
+ltmain.sh
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svnroot/embxml/!svn/ver/23/ltmain.sh
+END
+config.h.in
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svnroot/embxml/!svn/ver/1/config.h.in
+END
+configure.ac
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svnroot/embxml/!svn/ver/23/configure.ac
+END
+INSTALL
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svnroot/embxml/!svn/ver/1/INSTALL
+END
+COPYING
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svnroot/embxml/!svn/ver/10/COPYING
+END
+missing
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svnroot/embxml/!svn/ver/23/missing
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svnroot/embxml/!svn/ver/10/Makefile.am
+END
+NEWS
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svnroot/embxml/!svn/ver/1/NEWS
+END
+aclocal.m4
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svnroot/embxml/!svn/ver/23/aclocal.m4
+END
+install-sh
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svnroot/embxml/!svn/ver/23/install-sh
+END

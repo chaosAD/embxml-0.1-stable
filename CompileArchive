@@ -1,0 +1,42 @@
+#!/bin/bash
+
+path_to_libEmblXml="src/libEmbXml"
+path_to_libEmblMem="src/libEmbMem"
+
+rm $path_to_libEmblXml/.libs/*.o
+rm $path_to_libEmblXml/.libs/*.a
+rm $path_to_libEmblMem/.libs/*.o
+rm $path_to_libEmblMem/.libs/*.a
+
+echo "Creating libEmblXml library"
+
+# Compile libEmblXml files
+g++ $path_to_libEmblXml/document.cpp -c -Iinclude -o$path_to_libEmblXml/.libs/document.o
+g++ $path_to_libEmblXml/IOFile.cpp -c -Iinclude -o$path_to_libEmblXml/.libs/IOFile.o
+g++ $path_to_libEmblXml/reader.cpp -c -Iinclude -osrc/libEmbXml/.libs/reader.o
+g++ $path_to_libEmblXml/writer.cpp -c -Iinclude -osrc/libEmbXml/.libs/writer.o
+
+# Record the current path
+current_path="$(pwd)"
+# Move into the target path
+cd $path_to_libEmblXml/.libs
+ar rsc libEmbXml.a document.o IOFile.o reader.o writer.o
+#echo $current_path
+# Restore the path
+cd $current_path
+
+
+echo "Creating libEmblMem library"
+
+# Compile libEmblMem files
+g++ $path_to_libEmblMem/charBuffer.cpp -c -Iinclude -o$path_to_libEmblMem/.libs/charBuffer.o
+#g++ $path_to_libEmblMem/objManager.cpp -c -Iinclude -o$path_to_libEmblMem/.libs/objManager.o
+
+# Record the current path
+current_path="$(pwd)"
+# Move into the target path
+cd $path_to_libEmblMem/.libs
+#ar rsc libEmbMem.a charBuffer.o objManager.o
+ar rsc libEmbMem.a charBuffer.o
+# Restore the path
+cd $current_path

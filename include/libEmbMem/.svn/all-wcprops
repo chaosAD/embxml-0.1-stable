@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svnroot/embxml/!svn/ver/23/include/libEmbMem
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/embxml/!svn/ver/23/include/libEmbMem/Makefile.in
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/embxml/!svn/ver/15/include/libEmbMem/Makefile.am
+END
+objManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/embxml/!svn/ver/1/include/libEmbMem/objManager.h
+END
+charBuffer.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/embxml/!svn/ver/14/include/libEmbMem/charBuffer.h
+END

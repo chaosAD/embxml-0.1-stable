@@ -1,0 +1,5 @@
+# Compile and link to the static library
+g++ testXml.cpp -I../result/include -lEmbMem -lEmbXml -L../result/lib -o testXml.exe
+
+# Run the program
+./testXml.exe
